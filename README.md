@@ -116,7 +116,7 @@ python3 main.py # Run the bot
 ```
 
 ### Special Credits 💖
-- [RAKA](https://github.com/Rakaxyxz: Dev
+- [RAKAXYXZ](https://github.com/Rakaxyxz: Dev
 - [Tofik](https://github.com/tofikdn): Dev
 - [Zxce3](https://github.com/Zxce3): Dev
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
