@@ -8,7 +8,7 @@ from callsmusic.callsmusic import client as veez
 async def songs(client, message):
     try:
         if len(message.command) < 2:
-            await message.reply_text("❗ **song not found.**\n\n**please give a valid song name.**")
+            await message.reply_text("❗ **lagu kaga bakal ada bego.**\n\n**tolong lah bego kalo req lagu yang bener biar ga invalid sayang mwah ahaha.**")
             return
         text = message.text.split(None, 1)[1]
         results = await veez.get_inline_bot_results(1872165533, f"music {text}")
@@ -16,4 +16,4 @@ async def songs(client, message):
             message.chat.id, results.query_id, results.results[0].id
         )
     except Exception:
-        await message.reply_text("❗ **song not found.**")
+        await message.reply_text("❗ **Lagu Engga Ada anjing.**")
