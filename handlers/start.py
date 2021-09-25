@@ -32,27 +32,29 @@ async def _human_time_duration(seconds):
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>✨ **Welcome {message.from_user.first_name}** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) allows you to play music on groups through the new Telegram's voice chats!**
+        f"""<b>✨ **Welcome Anak anjing {message.from_user.first_name}** \n
+💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Bot ini memungkinkan Anda memutar musik di grup melalui obrolan suara Telegram baru!**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+💡 **Cari tahu semua perintah Bot dan cara kerjanya dengan mengklik» 📚 Perintah Tombol!**
 
-❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**
+❔ **Untuk mengetahui cara menggunakan bot ini, silakan klik » ❓ tombol Panduan Dasar!**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "➕ Tambahin Gua Ke grup Lu ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "❓ Basic Guide", callback_data="cbhowtouse")
+                        "❓ panduan Dasar", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
-                         "📚 Commands", callback_data="cbcmds"
+                         "📚 Perintah", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 Donate", url=f"https://t.me/{OWNER_NAME}")
+                        
+
+                       "💝 Donate", url=f"https://t.me/{OWNER_NAME}"
                 ],[
                     InlineKeyboardButton(
                         "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
