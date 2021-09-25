@@ -55,7 +55,7 @@ async def start_(client: Client, message: Message):
                         
 
                        "💝 Donate", url=f"https://t.me/{OWNER_NAME}"
-                ],[
+               
                     InlineKeyboardButton(
                         "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
