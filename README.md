@@ -1,8 +1,8 @@
 <h2 align="centre">🎵 RAKA MUSIC BOT</h2>
 
-### RAXS MUSIC is a telegram bot project that's allow you to play music on telegram voice chat group.
+### RAXS MUSIC Adalah Bot musik Yang berfungsi Di voice chat Grup anda silahkan Di deploy.
 
-<p align="center"><a href="https://t.me/VeezMusicBot"><img src="https://telegra.ph/file/76e57b8b52e2a237486dd.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/RaxsMusic"><img src="https://telegra.ph/file/76e57b8b52e2a237486dd.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
     <a href="https://github.com/levina-lab/VeezMusic/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a>
