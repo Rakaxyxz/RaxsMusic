@@ -1,6 +1,6 @@
 <h2 align="centre">🎵 RAKA MUSIC BOT</h2>
 
-### RAXS MUSIC Adalah Bot musik Yang berfungsi Di voice chat Grup anda silahkan Di deploy.
+### RAXS MUSIC Adalah Bot musik Yang berfungsi Di voice chat Grup Telegram anda silahkan Di deploy.
 
 <p align="center"><a href="https://t.me/RaxsMusic"><img src="https://telegra.ph/file/76e57b8b52e2a237486dd.jpg" width="300"></a></p>
 <p align="center">
