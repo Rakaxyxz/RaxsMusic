@@ -44,7 +44,7 @@ async def update_admin(client, message):
     for u in new_ads:
         new_admins.append(u.user.id)
     admins[message.chat.id] = new_admins
-    await message.reply_text("✅ Bot **reloaded correctly !**\n✅ **Admin list** has been **updated !**")
+    await message.reply_text("✅ Bot **dimuat ulang dengan benar ngentot!**\n✅ **daftar Admin dan babu** sudah di update anjing **updated !**")
 
 
 # Control Menu Of Player
@@ -84,7 +84,7 @@ async def controlset(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗑 Close", callback_data="close"
+                        "🗑 tutup", callback_data="close"
                     )
                 ]
             ]
@@ -126,7 +126,7 @@ async def resume(_, message: Message):
 async def stop(_, message: Message):
     chat_id = get_chat_id(message.chat)
     if chat_id not in callsmusic.pytgcalls.active_calls:
-        await message.reply_text("❗ nothing in streaming")
+        await message.reply_text("❗ gada dalam streaming ngentot")
     else:
         try:
             queues.clear(chat_id)
@@ -134,7 +134,7 @@ async def stop(_, message: Message):
             pass
 
         callsmusic.pytgcalls.leave_group_call(chat_id)
-        await message.reply_text("⏹ streaming ended !")
+        await message.reply_text("⏹ streaming berakhir !")
 
 
 @Client.on_message(command("skip") & other_filters)
@@ -144,7 +144,7 @@ async def skip(_, message: Message):
     global que
     chat_id = get_chat_id(message.chat)
     if chat_id not in callsmusic.pytgcalls.active_calls:
-        await message.reply_text("❗ nothing in streaming!")
+        await message.reply_text("❗ gada dalam streaming ngentot!")
     else:
         queues.task_done(chat_id)
 
@@ -160,7 +160,7 @@ async def skip(_, message: Message):
         skip = qeue.pop(0)
     if not qeue:
         return
-    await message.reply_text(f"⫸ skipped : **{skip[0]}**\n⫸ now playing : **{qeue[0][0]}**")
+    await message.reply_text(f"⫸ dilewati : **{skip[0]}**\n⫸ sedang dimainkan : **{qeue[0][0]}**")
 
 
 @Client.on_message(command("auth") & other_filters)
@@ -262,7 +262,7 @@ async def cbend(_, query: CallbackQuery):
             pass
         
         callsmusic.pytgcalls.leave_group_call(query.message.chat.id)
-        await query.edit_message_text("✅ the music queue has been cleared and successfully left voice chat", reply_markup=BACK_BUTTON)
+        await query.edit_message_text("✅ antrian musik telah di akhiri dan meninggalkan obrolan suara,anjayy", reply_markup=BACK_BUTTON)
 
 @Client.on_callback_query(filters.regex("cbskip"))
 @cb_admin_check
@@ -270,7 +270,7 @@ async def cbskip(_, query: CallbackQuery):
     global que
     chat_id = get_chat_id(query.message.chat)
     if query.message.chat.id not in callsmusic.pytgcalls.active_calls:
-        await query.edit_message_text("❗️ nothing is playing", reply_markup=BACK_BUTTON)
+        await query.edit_message_text("❗️ Kaga ada Yang Di Puter tolol musiknya", reply_markup=BACK_BUTTON)
     else:
         queues.task_done(query.message.chat.id)
         
@@ -286,7 +286,7 @@ async def cbskip(_, query: CallbackQuery):
         skip = qeue.pop(0)
     if not qeue:
         return
-    await query.edit_message_text(f"⏭ skipped music\n\n» skipped : **{skip[0]}**\n» now playing : **{qeue[0][0]}**", reply_markup=BACK_BUTTON)
+    await query.edit_message_text(f"⏭ skip music karena terlalu suram\n\n» skipped : **{skip[0]}**\sedang dimainkan oleh Raka ganteng : **{qeue[0][0]}**", reply_markup=BACK_BUTTON)
 
 # (C) Veez Music Project
 
