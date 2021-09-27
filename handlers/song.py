@@ -28,7 +28,7 @@ from config import DURATION_LIMIT, BOT_USERNAME as bn
 @Client.on_message(command(["song", f"song@{bn}"]) & ~filters.channel)
 def song(_, message):
     query = " ".join(message.command[1:])
-    m = message.reply("🔎 finding song...")
+    m = message.reply("🔎 Mencari Lagu Sabar Ngentot...")
     ydl_ops = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -41,7 +41,7 @@ def song(_, message):
         duration = results[0]["duration"]
 
     except Exception as e:
-        m.edit("❌ song not found.\n\nplease give a valid song name.")
+        m.edit("❌ Lagu tidak dapat dicari makanya kalo lo nyari lagu yang bener kentot.\n\nTolong Lo cari Judul Lagu yang bener Dongo.")
         print(str(e))
         return
     m.edit("📥 downloading...")
@@ -251,14 +251,14 @@ async def vsong(client, message):
     except Exception as e:
         print(e)
     try:
-        msg = await message.reply("📥 **downloading video...**")
+        msg = await message.reply("📥 **sabar yatim download video...**")
         with YoutubeDL(ydl_opts) as ytdl:
             ytdl_data = ytdl.extract_info(link, download=True)
             file_name = ytdl.prepare_filename(ytdl_data)
     except Exception as e:
         return await msg.edit(f"🚫 **error:** {str(e)}")
     preview = wget.download(thumbnail)
-    await msg.edit("📤 **uploading video...**")
+    await msg.edit("📤 **Sabar Lagi Upload Video...**")
     await message.reply_video(
         file_name,
         duration=int(ytdl_data["duration"]),
