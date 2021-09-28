@@ -28,7 +28,7 @@ from helpers.gets import get_url, get_file_name
 @Client.on_message(command(["stream", f"stream@{BOT_USERNAME}"]) & other_filters)
 async def stream(_, message: Message):
 
-    lel = await message.reply("🔁 **processing** sound...")
+    lel = await message.reply("🔁 **Sabar Kentot Lagi proses** Musik...")
     costumer = message.from_user.mention
 
     keyboard = InlineKeyboardMarkup(
@@ -49,7 +49,7 @@ async def stream(_, message: Message):
 
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
-            return await lel.edit(f"❌ **music with duration more than** `{DURATION_LIMIT}` **minutes, can't play !**")
+            return await lel.edit(f"❌ **musik dengan durasi lebih dari** `{DURATION_LIMIT}` **menit tidak bisa di putar!**")
 
         file_name = get_file_name(audio)
         title = audio.title
@@ -59,15 +59,15 @@ async def stream(_, message: Message):
             if not path.isfile(path.join("downloads", file_name)) else file_name
         )
     elif url:
-        return await lel.edit("💭 **please reply to a telegram audio file**")
+        return await lel.edit("💭 **tolong balas audio file telegram**")
     else:
-        return await lel.edit("💭 **please reply to a telegram audio file**")
+        return await lel.edit("💭 **tolong balas audio file telegram**")
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
             photo=f"{QUE_IMG}",
-            caption=f"💡 **Track added to queue »** `{position}`\n\n🏷 **Name:** {title[:50]}\n⏱ **Duration:** `{duration}`\n🎧 **Request by:** {costumer}",
+         caption=f"💡 **Track ditambahkan** `{position}`\n\n🏷 **Name:** {title[:50]}\n⏱ **Duration:** `{duration}`\n🎧 **Request by:** {costumer}",
             reply_markup=keyboard,
         )
         return await lel.delete()
