@@ -33,69 +33,68 @@
 
 ## Fitur 🔮
 
-- Thumbnail Support
-- Playlist Support
-- Showing track names when skipping
-- Youtube, Local playback support
-- Settings panel
-- Control with buttons
-- Userbot auto join
-- Channel Music Play
-- Keyboard selection support for youtube play
+- Dukungan Thumbnail
+- Dukungan Daftar Putar
+- Menampilkan Nama track Saat Di Skip
+- Youtube, Dukungan Pemutaran Lokal
+- Control Panel
+- Kontrol Dengan Tombol
+- Userbot automatis Bergabung
+- Channel Musik Play
+- Dukungan Pemilihan Keyboard untuk Pemutaran Youtube
 - Lyrics Scrapper
-- Unlimited Queue
-- Broadcast Bot
-- Statistic Collector
-- Group Tools (ban/unban/mute/unmute)
-- Block / Unblock (restrict user for using your bot)
+- Antrian Tidak Terbatas[UNLIMITED]
+- Bot Siaran[GCAST]
+- Kolektor Statistik
+- Alat Grup (ban/unban/mute/unmute)
+- Block / Unblock (Batasan Pengguna Untuk Bot Anda)
 
 ## Perintah 🛠
 
-- `/play <song name>` - play song you requested
-- `/playlist` - Show now playing list
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
-- `/vsong <song name>` - download videos you want quickly
-- `/lyric <song name>` - lyrics scrapper
-- `/vk <song name>` - generate song without download
+- /play <nama lagu> - putar lagu yang Anda minta
+- / daftar putar - Tampilkan daftar yang sedang diputar
+- /song <nama lagu> - unduh lagu yang Anda inginkan dengan cepat
+- /search <query> - cari video di youtube dengan detail
+- /vsong <nama lagu> - unduh video yang Anda inginkan dengan cepat
+- /lirik <nama lagu> - lirik scrapper
+- /vk <nama lagu> - buat lagu tanpa download
+#### Khusus Admin 👷‍♂️
+- /player - buka panel pengaturan pemutar musik
+- /pause - jeda pemutaran lagu
+- /resume - melanjutkan pemutaran lagu
+- /skip - putar lagu berikutnya
+- /end - hentikan pemutaran musik
+- /musicplayer aktif - untuk menonaktifkan pemutar musik di grup Anda
+- /musicplayer off - untuk mengaktifkan pemutar musik di grup Anda
+- /userbotjoin - undang asisten ke obrolan Anda
+- /userbotleave - hapus asisten dari obrolan Anda
+- /reload - Segarkan daftar admin
+- /uptime - periksa status uptime bot
+- /ping - periksa status bot ping
+- /auth - orang yang berwenang untuk mengakses perintah admin
+- /deauth - membatalkan otorisasi orang untuk mengakses perintah admin
+- /control - buka panel kontrol pemutar musik
 
-#### Admins Only 👷‍♂️
-- `/player` - open music player settings panel
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
-- `/musicplayer on` - to disable music player in your group
-- `/musicplayer off` - to enable music player in your group
-- `/userbotjoin` - invite assistant to your chat
-- `/userbotleave` - remove assistant from your chat
-- `/reload` - Refresh admin list
-- `/uptime` - check the bot uptime status
-- `/ping` - check the bot ping status
-- `/auth` - authorized people to access the admin commands
-- `/deauth` - deauthorized people to access the admin commands
-- `/control` - open the music player control panel
 
 ### Sudo User 🧙‍♂️
-- `/stats` - see the bot statistic
-- `/pmpermit on | off` turn on/off the assistant pmpermit
-- `/userbotleaveall` - order the assistant to leave all groups
-- `/gcast` - send a broadcast message from the assistant
+- /stats - lihat statistik bot
+- / izinkan pada | matikan hidupkan/matikan asisten pmpermit
+- /userbotleaveall - perintahkan asisten untuk keluar dari semua grup
+- /gcast - mengirim pesan siaran dari asisten
 
-### Owner Only 👨🏻‍✈️
-- `/broadcast` - send a broadcast message from the bot
-- `/block` - block people for using your bot
-- `/unblock` - unblock people you blocked for using your bot
-- `/blocklist` - show the list of all people who's blocked for using your bot
+### Owner Selalu 👨🏻‍✈️
+- /broadcast - mengirim pesan siaran dari bot
+- /block - blokir orang yang menggunakan bot Anda
+- /unblock - buka blokir orang yang Anda blokir karena menggunakan bot Anda
+- /blocklist - menampilkan daftar semua orang yang diblokir karena menggunakan bot Anda
 
 ### pm-permit 💬
-- `.yes` - approve user for sending message to assistant
-- `.no` - disapprove user for sending message to assistant
-
+- .yes - setujui pengguna untuk mengirim pesan ke asisten
+- .no - menolak pengguna untuk mengirim pesan ke asisten
 ## 🔎 Support Inline Search
 
 ## Heroku Deployment 💜
-The easy way to host this bot, deploy to Heroku
+Hai Raxs kasih Tau nih Cara mudah untuk meng-host bot ini, gunakan ke Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RakaXyxz/RaxsMusic)
 
@@ -108,8 +107,8 @@ pip3 install -U pip
 curl -sL https://deb.nodesource.com/setup_16.x | bash -
 sudo apt-get install -y nodejs
 npm i -g npm
-git clone https://github.com/levina-lab/VeezMusic # Clone your repo.
-cd VeezMusic
+git clone https://github.com/Rakaxyxz/RaxsMusic # Clone your repo.
+cd RaxsMusic
 pip3 install -U -r requirements.txt
 cp example.env .env #Use vim to edit ENVs
 vim .env #Fill up your ENVs ( Steps press i to enter in insert mode then edit the file. Press Esc to exit the editing mode then type :wq! and press Enter key to save the file.)
@@ -117,7 +116,7 @@ python3 main.py # Run the bot
 ```
 
 ### Special Credits 💖
-- [RAKAXYXZ](https://github.com/Rakaxyxz: Dev
+- [RAKAXYXZ](https://github.com/Rakaxyxz): Dev
 - [Tofik](https://github.com/tofikdn): Dev
 - [Zxce3](https://github.com/Zxce3): Dev
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
@@ -128,3 +127,4 @@ python3 main.py # Run the bot
 
 ### Support & Updates 🎑
 <a href="https://t.me/joinsiniiajg"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/levinachannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ImThelastKingMs"><img src="https://img.shields.io/badge/TeleSaya-Saya%20Deadpool-blue.svg?style=for-the-badge&logo=Telegram"></a>
