@@ -128,3 +128,7 @@ python3 main.py # Run the bot
 ### Support & Updates 🎑
 <a href="https://t.me/joinsiniiajg"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/levinachannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/ImThelastKingMs"><img src="https://img.shields.io/badge/TeleSaya-Saya%20Deadpool-blue.svg?style=for-the-badge&logo=Telegram"></a>
+
+### TERIMAKASIH SEMUA🔥🇮🇩
+
+>"<img src=https://telegra.ph/file/f035472d78a427dfb5086.png>"
