@@ -52,7 +52,14 @@
         "OWNER_NAME": {
             "description": "fill with your username without @",
             "required": false,
-            "value": "ImThelastKingMs"
+            "value": "ImThelastKingMs"       
+        },
+        "THUMB_IMG": {
+            "description": "Buat ThumbNail Image Ngentot",
+            "required": false,
+            "value": "https://telegra.ph/file/2de146a7b73d88c8628be.png"
+        },
+
         },
         "API_ID": {
             "description": "your App ID from my.telegram.org/apps",
