@@ -30,7 +30,7 @@
 ### 🎖 History
 
 [![Mentioned in Awesome Python](https://awesome.re/mentioned-badge.svg)](https://github.com/Rakaxyxz/RaxsMusic)
-
+## RAKA GANTENG YA ALLAH
 ## Fitur 🔮
 
 - Dukungan Thumbnail
