@@ -2,7 +2,7 @@
 
 ### RAXS MUSIC Adalah Bot musik Yang berfungsi Di voice chat Grup Telegram anda silahkan Di deploy.
 
-<p align="center"><a href="https://t.me/RaxsMusic">"[<img src=https://telegra.ph/file/2d3d740fcc56928277ae9.gif>]"
+<p align="center"><a href="https://t.me/RaxsMusic"> <img src=https://telegra.ph/file/2d3d740fcc56928277ae9.gif>
   </a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
