@@ -131,4 +131,4 @@ python3 main.py # Run the bot
 
 ### TERIMAKASIH SEMUA🔥🇮🇩
 
->"<img src=https://telegra.ph/file/f035472d78a427dfb5086.png>"
+><img src=https://telegra.ph/file/f035472d78a427dfb5086.png>
